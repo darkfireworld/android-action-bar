@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义Action Bar-->
+    <declare-styleable name="action_bar_styleable">
+        <!--左边的文字-->
+        <attr name="left_text" format="string"/>
+        <!--左边图片-->
+        <attr name="left_img" format="reference"/>
+        <!--是否隐藏左边控件-->
+        <attr name="left_hide" format="boolean"/>
+        <!--左边控件是否禁用，字体颜色会变灰-->
+        <attr name="left_disable" format="boolean"/>
+        <!--左边文字正常颜色-->
+        <attr name="left_text_color" format="color"/>
+        <!--左边文字禁用颜色-->
+        <attr name="left_text_disable_color" format="color"/>
+        <!--中间标题-->
+        <attr name="title" format="string"/>
+        <!--标题颜色-->
+        <attr name="title_color" format="color"/>
+        <!--右边文字-->
+        <attr name="right_text" format="string"/>
+        <!--右边图片-->
+        <attr name="right_img" format="reference"/>
+        <!--是否隐藏右边控件-->
+        <attr name="right_hide" format="boolean"/>
+        <!--右边控件是否禁用，字体颜色会变灰-->
+        <attr name="right_disable" format="boolean"/>
+        <!--右边文字颜色-->
+        <attr name="right_text_color" format="color"/>
+        <!--右边文字禁用颜色-->
+        <attr name="right_text_disable_color" format="color"/>
+        <!--文字大小-->
+        <attr name="text_size" format="dimension"/>
+        <!--是否隐藏底部虚线-->
+        <attr name="bottom_line_hide" format="boolean"/>
+        <!--脚线渐渐色起始颜色-->
+        <attr name="bottom_line_start_color" format="color"/>
+        <!--脚线渐渐结束颜色-->
+        <attr name="bottom_line_end_color" format="color"/>
+        <!--脚线高度-->
+        <attr name="bottom_line_height" format="dimension"/>
+    </declare-styleable>
+</resources>
